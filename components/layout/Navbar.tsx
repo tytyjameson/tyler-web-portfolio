@@ -1,14 +1,15 @@
 'use client'
 
+import { useEffect, useState } from 'react'
+
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { useState, useEffect } from 'react'
 
 const NAV_LINKS = [
   { href: '/',              label: 'Home' },
+  { href: '/software',      label: 'Software' },
   { href: '/acting',        label: 'Acting' },
   { href: '/voice-acting',  label: 'Voice' },
-  { href: '/software',      label: 'Software' },
 ]
 
 // Per-page accent colour for the active underline

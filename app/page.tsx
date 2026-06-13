@@ -1,6 +1,6 @@
+import DisciplineCard from '@/components/ui/DisciplineCard'
 import Link from 'next/link'
 import Navbar from '@/components/layout/Navbar'
-import DisciplineCard from '@/components/ui/DisciplineCard'
 
 export default function HomePage() {
   return (
@@ -53,9 +53,9 @@ export default function HomePage() {
           {/* Discipline tags */}
           <div className="flex gap-6 items-center flex-wrap animate-fade-up-4">
             {[
-              { label: 'Actor',            color: '#e8514a', href: '/acting' },
-              { label: 'Voice Actor',      color: '#4ab8e8', href: '/voice-acting' },
-              { label: 'Software Developer', color: '#a855f7', href: '/software' },
+              { label: 'Software Developer', color: '#e8514a', href: '/software' },
+              { label: 'Actor',            color: '#4ab8e8', href: '/acting' },
+              { label: 'Voice Actor',      color: '#a855f7', href: '/voice-acting' },
             ].map(({ label, color, href }, i) => (
               <div key={label} className="flex items-center gap-6">
                 <Link
@@ -134,7 +134,7 @@ export default function HomePage() {
           </div>
           <div className="space-y-4">
             <p className="font-body text-base text-dim leading-relaxed">
-              Tyler Jameson Martinez is a multidisciplinary creative based in Los Angeles. He has spent the better part of a decade honing three distinct crafts — each one informing the other in unexpected ways.
+              Tyler Jameson Martinez is a multidisciplinary creative based in Las Vegas, NV . He has spent his life honing three distinct crafts — each one informing the other in unexpected ways.
             </p>
             <p className="font-body text-base text-dim leading-relaxed">
               His acting trains him to inhabit perspective. His voice work sharpens his ear for nuance and rhythm. His software practice gives him a builder's instinct for systems. Together, they make something harder to categorize — and more interesting for it.
@@ -147,7 +147,7 @@ export default function HomePage() {
       <footer className="border-t border-white/8 py-10 px-8">
         <div className="max-w-6xl mx-auto flex items-center justify-between flex-wrap gap-4">
           <p className="font-display font-bold text-lg text-dim">TJM</p>
-          <p className="font-body text-sm text-dim">© 2025 Tyler Jameson Martinez</p>
+          <p className="font-body text-sm text-dim">© 2026 Tyler Jameson Martinez</p>
         </div>
       </footer>
     </div>
