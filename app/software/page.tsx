@@ -19,7 +19,7 @@ const PROJECTS = [
   },
   {
     name: 'Contract Work',
-    desc: 'Worked Several contracts with the duration lasting from two weeks up to 2 months for different companies; most notable Triangle Farms and Quick Draw Development.',
+    desc: 'Worked Several contracts with the duration lasting from two weeks up to two months for different companies; most notable Triangle Farms and Quick Draw Development.',
     tags: ['React', 'Node.js', 'Typescript', 'Tailwind', 'Express.js'],
     status: 'Beta',
     year: '2024 - Present',
@@ -29,7 +29,7 @@ const PROJECTS = [
     name: 'Suggestion Generator',
     desc: 'A Suggestion Generating tool used to help improv performers create the world within their mind.',
     tags: ['TypeScript', 'React', 'Node.js'],
-    status: 'alph',
+    status: 'alpha',
     year: '2026',
     url: '#',
   },
