@@ -14,7 +14,7 @@ const CREDITS = [
 ]
 
 const TRAINING = [
-  { school: 'Long Beach City College Theatre Program', focus: 'Two-Year Accredited Complete Theatre Program with classical and modern theatre training with added extended training in impov comedy' },
+  { school: 'Long Beach City College Theatre Program', focus: 'Two-Year Accredited Complete Theatre Program with classical and modern theatre training with added extended training in impov comedy and stage combat' },
   { school: 'Groundlings Core Program, Advanced Level', focus: 'Improv & Sketch Performance of the highest caliber including character creation, scene building, stage presence, physical improv and Sketch writing' },
   { school: 'Cal State University Long Beach', focus: 'Complete Accredited Undergrad Theatre Program graduating with a B.A. In Theatre and a minor in Music' },
   { school: 'Kalmenson & Kalmenson VO Voice Program', focus: 'Complete VO training program featuring character design, diction and speech, as well as VO improv' },
