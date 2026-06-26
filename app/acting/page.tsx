@@ -1,21 +1,23 @@
 import PageShell from '@/components/layout/PageShell'
 
 const CREDITS = [
-  { title: 'The Glass Meridian',    role: 'Marcus Webb (Lead)',         type: 'Feature Film',    year: '2024' },
-  { title: 'Hollow Season',         role: 'Detective Ray Cortes',       type: 'Short Film',      year: '2023' },
-  { title: 'A Streetcar Named Desire', role: 'Stanley Kowalski',       type: 'Stage — Ensemble Theatre', year: '2023' },
-  { title: 'Ordinary Machines',     role: 'Nathan (Supporting)',        type: 'Indie Feature',   year: '2022' },
-  { title: 'Death of a Salesman',   role: 'Biff Loman',                type: 'Stage — Repertory', year: '2022' },
-  { title: 'Parallel',              role: 'James / Alt-James (Lead)',   type: 'Short Film',      year: '2021' },
-  { title: 'The Waiting Room',      role: 'Ensemble',                  type: 'Stage — Fringe Festival', year: '2021' },
-  { title: 'Westside Run',          role: 'Detective Huang',           type: 'Web Series',      year: '2020' },
+  { title: 'The Amazing Spidermain', role: 'AP English student/football player', type: 'Feature Film', year: '2012' },
+  { title: 'The Newsroom', role: 'Student Reporter', type: 'HBO series', year: '2012' },
+  { title: 'Moby Dick Rehearsed', role: 'The Carpenter', type: 'Theatre Production', year: '2014' },
+  { title: 'Kill Me Deadly', role: 'Detective Dewey', type: 'Theatre Production', year: '2015' },
+  { title: 'Superstore', role: 'shopper - 3 episodes', type: 'Televison series', year: '2017' },
+  { title: 'Westworld', role: 'Host - 3 episodes', type: 'HBO series', year: '2018' },
+  { title: 'Animal Kingdom', role: 'Camera man', type: 'Televison series', year: '2020' }, 
+  { title: 'Silicon Valley', role: 'Core Coder - 5th and 6th season', type: 'Televison series', year: '2018 - 2019' },
+  { title: 'Hacks', role: 'Pizza Shop employee 3 episodes', type: 'HBO series', year: '2021' },
+  { title: 'Mayans M.C.', role: 'Sons of Anarchy Biker - 5th season ', type: 'Television series', year: '2022' },
 ]
 
 const TRAINING = [
-  { school: 'The Meisner Studio, LA',   focus: 'Two-Year Meisner Technique Program' },
-  { school: 'Second City Chicago',      focus: 'Improv & Sketch Performance' },
-  { school: 'UCLA Extension',           focus: 'On-Camera Acting for Film & Television' },
-  { school: 'Private Coaching',         focus: 'Dialect & Accent Reduction — RP, Southern, Boston' },
+  { school: 'Long Beach City College Theatre Program', focus: 'Two-Year Accredited Complete Theatre Program with classical and modern theatre training with added extended training in impov comedy' },
+  { school: 'Groundlings Core Program, Advanced Level', focus: 'Improv & Sketch Performance of the highest caliber including character creation, scene building, stage presence, physical improv and Sketch writing' },
+  { school: 'Cal State University Long Beach', focus: 'Complete Accredited Undergrad Theatre Program graduating with a B.A. In Theatre and a minor in Music' },
+  { school: 'Kalmenson & Kalmenson VO Voice Program', focus: 'Complete VO training program featuring character design, diction and speech, as well as VO improv' },
 ]
 
 export default function ActingPage() {
@@ -25,7 +27,7 @@ export default function ActingPage() {
       accentDark="#2a0a09"
       label="Stage & Screen"
       title="Acting"
-      tagline="Character-driven work rooted in honesty. Trained in the Meisner technique with stage, film, and digital credits across drama and dark comedy."
+      tagline="Character-driven work rooted in honesty. Trained in the Meisner and Adler technique with stage, film, and digital credits across drama and comedy."
     >
 
       {/* Credits */}
@@ -83,7 +85,7 @@ export default function ActingPage() {
           Reel and sides available on request. Happy to self-tape or schedule a read.
         </p>
         <a
-          href="mailto:tyler@tjmartinez.com"
+          href="mailto:tm6002005@gmail.com"
           className="inline-block font-body text-sm font-semibold tracking-widest uppercase px-8 py-3 rounded-sm transition-all hover:-translate-y-px"
           style={{ background: '#e8514a', color: '#0f0f0f' }}
         >
