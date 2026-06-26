@@ -89,10 +89,20 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <DisciplineCard
+              href="/software"
+              label="Engineering"
+              title="Software"
+              description="Full-stack developer building web applications with React, Next.js, and Node. Comfortable from idea to deployment, with a designer's eye."
+              accent="#a855f7"
+              accentDark="#150a24"
+              symbol="⌨️"
+              delay="0.3s"
+            />
+            <DisciplineCard
               href="/acting"
               label="Stage & Screen"
               title="Acting"
-              description="Character work spanning drama, comedy, and everything between. Trained in Meisner technique with regional theatre and independent film credits."
+              description="Character work spanning drama, comedy, and everything between. Trained in Meisner & Adler technique with regional theatre, independent film, television and large studio film credits ."
               accent="#e8514a"
               accentDark="#2a0a09"
               symbol="🎭"
@@ -107,16 +117,6 @@ export default function HomePage() {
               accentDark="#091a24"
               symbol="🎙"
               delay="0.2s"
-            />
-            <DisciplineCard
-              href="/software"
-              label="Engineering"
-              title="Software"
-              description="Full-stack developer building web applications with React, Next.js, and Node. Comfortable from idea to deployment, with a designer's eye."
-              accent="#a855f7"
-              accentDark="#150a24"
-              symbol="⌨️"
-              delay="0.3s"
             />
           </div>
         </div>
