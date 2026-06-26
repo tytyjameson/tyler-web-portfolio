@@ -142,6 +142,21 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      <section
+        className="rounded-sm p-10 text-center"
+        style={{ background: 'linear-gradient(135deg, #0f0f0f 55%, #010003)' }}
+      >
+        <h3 className="font-display text-4xl font-bold mb-4">Contact Via Email</h3>
+        <div className="flex gap-4 justify-center flex-wrap">
+          <a
+            href="mailto:tm6002005@gmail.com"
+            className="inline-block font-body text-sm font-semibold tracking-widest uppercase px-8 py-3 rounded-sm transition-all hover:-translate-y-px"
+            style={{ background: '#a855f7', color: '#f0ede6' }}
+          >
+            Email
+          </a>
+        </div>
+      </section>
 
       {/* Footer */}
       <footer className="border-t border-white/8 py-10 px-8">

@@ -85,7 +85,7 @@ export default function ActingPage() {
           Reel and sides available on request. Happy to self-tape or schedule a read.
         </p>
         <a
-          href="mailto:tm6002005@gmail.com"
+          href="mailto:tylerjamesonm@gmail.com"
           className="inline-block font-body text-sm font-semibold tracking-widest uppercase px-8 py-3 rounded-sm transition-all hover:-translate-y-px"
           style={{ background: '#e8514a', color: '#0f0f0f' }}
         >
