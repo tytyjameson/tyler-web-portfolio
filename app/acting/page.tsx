@@ -1,7 +1,7 @@
 import PageShell from '@/components/layout/PageShell'
 
 const CREDITS = [
-  { title: 'The Amazing Spidermain', role: 'AP English student/football player', type: 'Feature Film', year: '2012' },
+  { title: 'The Amazing Spiderman', role: 'AP English student/football player', type: 'Feature Film', year: '2012' },
   { title: 'The Newsroom', role: 'Student Reporter', type: 'HBO series', year: '2012' },
   { title: 'Moby Dick Rehearsed', role: 'The Carpenter', type: 'Theatre Production', year: '2014' },
   { title: 'Kill Me Deadly', role: 'Detective Dewey', type: 'Theatre Production', year: '2015' },

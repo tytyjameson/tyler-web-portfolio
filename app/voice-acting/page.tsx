@@ -74,7 +74,7 @@ export default function VoiceActingPage() {
           ))}
         </div>
         <p className="font-body text-xs text-dim mt-4 text-center">
-          Demo files available on request · <a href="mailto:tyler@tjmartinez.com" className="underline hover:text-paper transition-colors" style={{ color: '#4ab8e8' }}>tyler@tjmartinez.com</a>
+          Demo files available on request · <a href="mailto:tytyjameson@gmail.com" className="underline hover:text-paper transition-colors" style={{ color: '#4ab8e8' }}>tyler@tjmartinez.com</a>
         </p>
       </section>
 
@@ -129,7 +129,7 @@ export default function VoiceActingPage() {
           Custom auditions, directed sessions via Source Connect, and full project packages available.
         </p>
         <a
-          href="mailto:tyler@tjmartinez.com"
+          href="mailto:tytyjameson@gmail.com"
           className="inline-block font-body text-sm font-semibold tracking-widest uppercase px-8 py-3 rounded-sm transition-all hover:-translate-y-px"
           style={{ background: '#4ab8e8', color: '#0f0f0f' }}
         >
