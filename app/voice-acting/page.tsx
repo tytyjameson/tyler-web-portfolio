@@ -17,7 +17,7 @@ const CREDITS = [
 ]
 
 const RANGE = [
-  { tag: 'Warm & Conversational', desc: 'The next-door neighbor. Relatable, trustworthy, never slimy.' },
+  { tag: 'Warm & Conversational', desc: 'The next-door neighbor. Relatable, trustworthy, a great friend.' },
   { tag: 'Commanding & Gravelly',  desc: 'Authority figures, antagonists, documentary narration.' },
   { tag: 'Young & Energetic',      desc: 'Animation leads, youth-targeted commercial, game protagonists.' },
   { tag: 'Dry & Deadpan',          desc: 'Comedy spots, sardonic characters, corporate satire.' },
@@ -42,7 +42,7 @@ export default function VoiceActingPage() {
         <div>
           <p className="font-body text-sm font-semibold text-paper mb-1">Professional Home Studio</p>
           <p className="font-body text-sm text-dim">
-            Acoustically treated recording space. Neumann TLM 103 · Universal Audio Apollo · Izotope RX10.
+            Acoustically treated recording space. Rode NT1 5th generation mic · Focusrite Scarlett 2i2 ·
             Broadcast-ready files delivered within 24 hours for most projects.
           </p>
         </div>
@@ -53,7 +53,8 @@ export default function VoiceActingPage() {
         <h2 className="font-display text-3xl font-bold mb-8 pb-4 border-b border-white/8">
           Demo Reels
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <h3>Coming Soon...</h3>
+        {/* <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {DEMOS.map((d) => (
             <div
               key={d.label}
@@ -61,7 +62,7 @@ export default function VoiceActingPage() {
             >
               <div className="flex items-center justify-between mb-3">
                 <p className="font-display text-lg font-semibold text-paper">{d.label}</p>
-                {/* Fake play button */}
+                //{ Fake play button }
                 <div
                   className="w-9 h-9 rounded-full flex items-center justify-center text-xs transition-transform group-hover:scale-110"
                   style={{ background: '#4ab8e8', color: '#0f0f0f' }}
@@ -72,9 +73,9 @@ export default function VoiceActingPage() {
               <p className="font-body text-sm text-dim">{d.description}</p>
             </div>
           ))}
-        </div>
+        </div> */}
         <p className="font-body text-xs text-dim mt-4 text-center">
-          Demo files available on request · <a href="mailto:tytyjameson@gmail.com" className="underline hover:text-paper transition-colors" style={{ color: '#4ab8e8' }}>tyler@tjmartinez.com</a>
+          Demo files available on request · <a href="mailto:tylerjamesonm@gmail.com" className="underline hover:text-paper transition-colors" style={{ color: '#4ab8e8' }}>tylerjamesonm@gmail.com</a>
         </p>
       </section>
 
@@ -103,7 +104,8 @@ export default function VoiceActingPage() {
         <h2 className="font-display text-3xl font-bold mb-8 pb-4 border-b border-white/8">
           Selected Credits
         </h2>
-        <div className="divide-y divide-white/5">
+        <h3>Coming Soon...</h3>
+        {/* <div className="divide-y divide-white/5">
           {CREDITS.map((c) => (
             <div key={c.title} className="py-5 grid grid-cols-[1fr_auto] gap-4 items-start group hover:bg-white/[0.02] -mx-4 px-4 rounded-sm transition-colors">
               <div>
@@ -116,7 +118,7 @@ export default function VoiceActingPage() {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </section>
 
       {/* CTA */}
@@ -129,7 +131,7 @@ export default function VoiceActingPage() {
           Custom auditions, directed sessions via Source Connect, and full project packages available.
         </p>
         <a
-          href="mailto:tytyjameson@gmail.com"
+          href="mailto:tylerjamesonm@gmail.com"
           className="inline-block font-body text-sm font-semibold tracking-widest uppercase px-8 py-3 rounded-sm transition-all hover:-translate-y-px"
           style={{ background: '#4ab8e8', color: '#0f0f0f' }}
         >
